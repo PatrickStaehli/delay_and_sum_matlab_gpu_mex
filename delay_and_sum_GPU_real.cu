@@ -185,9 +185,7 @@ void __global__ delay_and_sum(double const * const raw_data,
 				
 				total_roundtrip_time =  roundtrip_rx - delay_F[angle_num] + roundtrip_tx;
 				
-				// Phase correction due to rounding errors
-				//phasefac = exp(2*pi*j*(total_roundtrip_time-roundf(total_roundtrip_time)) * 0.125);
-
+				
 				if (total_roundtrip_time >= 1 && total_roundtrip_time <= recon_parameters.time_steps){ // only valid indices
 					
 					// Determine the 1d Index of the signal position
