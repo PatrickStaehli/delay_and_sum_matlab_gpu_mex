@@ -1,4 +1,4 @@
-# Image enhancer
+# Delay and sum GPU implementation with Matlab, CUDA and C++ MEX API
 
 ## Description
 This example includes a CUDA implementation of a conventiona delay-and-sum
